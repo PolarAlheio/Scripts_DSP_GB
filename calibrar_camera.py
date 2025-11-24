@@ -1,4 +1,4 @@
-# calibrar_camera.py
+# Arquivo que gera .npz para gerar as imagens undistorced
 import cv2
 import numpy as np
 import glob
@@ -53,3 +53,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
