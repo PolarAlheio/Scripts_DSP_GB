@@ -1,3 +1,5 @@
+# Esse programa simplesmente verifica se o xadrez é identificado nas fotos de calibração
+
 import cv2
 import glob
 import os
@@ -45,3 +47,4 @@ for f in files:
     nome = os.path.join(OUT_DIR, os.path.basename(f))
     cv2.imwrite(nome, out)
     print("Annotado salvo:", nome)
+
